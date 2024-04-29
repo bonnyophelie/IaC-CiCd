@@ -1,3 +1,4 @@
 {
-    "microsoft-sovereign-cloud.customEnvironment": {}
+    "microsoft-sovereign-cloud.customEnvironment": {},
+    "yaml.customTags": [ "!reference sequence" ]
 }

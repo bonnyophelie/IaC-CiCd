@@ -1,0 +1,37 @@
+PART 1 
++ Setup Gitlab repository
++ Setup Gitlab runner and connect to server
++ Create and populate main.tf file
++ Create and populate ansible files
++ Create and populate .gitlab-ci.yml file
++ Test pipeline with basic Setup
++ Test full pipeline with basic Setup (with all the jobs)
++ Modify to use the Module approach and test
++ Create multiple environments using terraform
++ Test pipeline
+
+PART 2
+- Add a java website that has test on it
+- Trigger the job using the terraform pipeline
+- Add and populate the following jobs:-
+  - test
+  - build
+  - deploy
+  - load_test
+  - send report...
+
+test: 
+  - test the application source code
+  - if job passes go to the next
+
+build: # Dockerfile must be present
+  - docker build website...
+  - push docker file to container registry
+
+deploy:
+  - docker login... # Authenticates with Container registry
+  - docker run ...
+
+liveness_probe:
+  - run bash script to ensure that the website returns a Response code of 200...
+  - notify on slack... # Over the top..

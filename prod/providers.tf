@@ -2,7 +2,7 @@
 provider "google" {
   credentials = file("CREDENTIAL")
 
-  project = "infrastructure-393911"
+  project = "devsecops-demo-420407"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
