@@ -7,7 +7,7 @@ terraform*
 .keys/*
 
 # Exclude GCP Credentials
-.CREDENTIAL.json
+CREDENTIAL.json
 
 #VSCODE settings
 .vscode/*
