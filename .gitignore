@@ -12,7 +12,7 @@ terraform*
 #VSCODE settings
 .vscode/*
 
+
 #VM
 vm_ip.txt
-
 
