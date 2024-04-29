@@ -15,6 +15,7 @@
         name: nginx
         state: started
         enabled: yes
+        
     # - name: Deploy website
     #   copy: 
     #     src: ./website_folder/*
