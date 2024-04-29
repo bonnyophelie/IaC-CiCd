@@ -6,13 +6,6 @@ terraform*
 # Exclude Key Pair used in testing locally
 .keys/*
 
-# Exclude GCP Credentials
-.CREDENTIAL.json
-
 #VSCODE settings
 .vscode/*
-
-
-#VM
-vm_ip.txt
 
