@@ -10,7 +10,9 @@ terraform*
 .CREDENTIAL.json
 
 #VSCODE settings
-.vscode
+.vscode/*
 
+#VM
+vm_ip.txt
 
 
