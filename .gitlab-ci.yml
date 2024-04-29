@@ -94,7 +94,7 @@ ansible_conf:
     - sed -i 's#vm_keys#vm_keys_'"${ENVIRONMENT}"'#g' ansible.cfg
     - apt-get update && apt-get install ansible -y
     - ansible --version
-    - ansible-playbook ansible-playbook.yml
+    - ansible-playbook main.yml
   parallel:
     matrix: 
       - ENVIRONMENT: [dev, staging, prod]
